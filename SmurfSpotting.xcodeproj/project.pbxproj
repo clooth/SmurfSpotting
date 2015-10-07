@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030DFF211BC5B05500D5756A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF201BC5B05500D5756A /* AppDelegate.swift */; };
+		030DFF231BC5B05500D5756A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030DFF221BC5B05500D5756A /* Assets.xcassets */; };
+		030DFF261BC5B05500D5756A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030DFF241BC5B05500D5756A /* LaunchScreen.storyboard */; };
+		030DFF311BC5B05500D5756A /* SmurfSpottingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF301BC5B05500D5756A /* SmurfSpottingTests.swift */; };
+		030DFF3C1BC5B05500D5756A /* SmurfSpottingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF3B1BC5B05500D5756A /* SmurfSpottingUITests.swift */; };
+		030DFF4C1BC5B11300D5756A /* Evidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF4B1BC5B11300D5756A /* Evidence.swift */; settings = {ASSET_TAGS = (); }; };
+		030DFF4F1BC5B12C00D5756A /* EvidenceUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF4E1BC5B12C00D5756A /* EvidenceUser.swift */; settings = {ASSET_TAGS = (); }; };
+		030DFF531BC5C82500D5756A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF521BC5C82500D5756A /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1B5C06432B5926303A43A3BF /* Pods_SmurfSpotting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB51E6FDE6BE87BDA4BF081 /* Pods_SmurfSpotting.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030DFF2D1BC5B05500D5756A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030DFF151BC5B05500D5756A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030DFF1C1BC5B05500D5756A;
+			remoteInfo = SmurfSpotting;
+		};
+		030DFF381BC5B05500D5756A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030DFF151BC5B05500D5756A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030DFF1C1BC5B05500D5756A;
+			remoteInfo = SmurfSpotting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030DFF1D1BC5B05500D5756A /* SmurfSpotting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmurfSpotting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFF201BC5B05500D5756A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030DFF221BC5B05500D5756A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030DFF251BC5B05500D5756A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030DFF271BC5B05500D5756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030DFF2C1BC5B05500D5756A /* SmurfSpottingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmurfSpottingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFF301BC5B05500D5756A /* SmurfSpottingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmurfSpottingTests.swift; sourceTree = "<group>"; };
+		030DFF321BC5B05500D5756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030DFF371BC5B05500D5756A /* SmurfSpottingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmurfSpottingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFF3B1BC5B05500D5756A /* SmurfSpottingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmurfSpottingUITests.swift; sourceTree = "<group>"; };
+		030DFF3D1BC5B05500D5756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030DFF4B1BC5B11300D5756A /* Evidence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evidence.swift; sourceTree = "<group>"; };
+		030DFF4E1BC5B12C00D5756A /* EvidenceUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvidenceUser.swift; sourceTree = "<group>"; };
+		030DFF521BC5C82500D5756A /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		37D49A54884A9AB8C97DA2C6 /* Pods-SmurfSpotting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmurfSpotting.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmurfSpotting/Pods-SmurfSpotting.release.xcconfig"; sourceTree = "<group>"; };
+		5DB51E6FDE6BE87BDA4BF081 /* Pods_SmurfSpotting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmurfSpotting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776EEA06E96D9753EA89BBD0 /* Pods-SmurfSpotting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmurfSpotting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmurfSpotting/Pods-SmurfSpotting.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030DFF1A1BC5B05500D5756A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5C06432B5926303A43A3BF /* Pods_SmurfSpotting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF291BC5B05500D5756A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF341BC5B05500D5756A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030DFF141BC5B05500D5756A = {
+			isa = PBXGroup;
+			children = (
+				030DFF1F1BC5B05500D5756A /* SmurfSpotting */,
+				030DFF2F1BC5B05500D5756A /* SmurfSpottingTests */,
+				030DFF3A1BC5B05500D5756A /* SmurfSpottingUITests */,
+				030DFF1E1BC5B05500D5756A /* Products */,
+				030DFF4A1BC5B0FD00D5756A /* Support */,
+			);
+			sourceTree = "<group>";
+		};
+		030DFF1E1BC5B05500D5756A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF1D1BC5B05500D5756A /* SmurfSpotting.app */,
+				030DFF2C1BC5B05500D5756A /* SmurfSpottingTests.xctest */,
+				030DFF371BC5B05500D5756A /* SmurfSpottingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030DFF1F1BC5B05500D5756A /* SmurfSpotting */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF491BC5B0EF00D5756A /* Evidence */,
+				030DFF501BC5C7F700D5756A /* Modules */,
+				030DFF201BC5B05500D5756A /* AppDelegate.swift */,
+				030DFF221BC5B05500D5756A /* Assets.xcassets */,
+				030DFF241BC5B05500D5756A /* LaunchScreen.storyboard */,
+				030DFF271BC5B05500D5756A /* Info.plist */,
+			);
+			path = SmurfSpotting;
+			sourceTree = "<group>";
+		};
+		030DFF2F1BC5B05500D5756A /* SmurfSpottingTests */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF301BC5B05500D5756A /* SmurfSpottingTests.swift */,
+				030DFF321BC5B05500D5756A /* Info.plist */,
+			);
+			path = SmurfSpottingTests;
+			sourceTree = "<group>";
+		};
+		030DFF3A1BC5B05500D5756A /* SmurfSpottingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF3B1BC5B05500D5756A /* SmurfSpottingUITests.swift */,
+				030DFF3D1BC5B05500D5756A /* Info.plist */,
+			);
+			path = SmurfSpottingUITests;
+			sourceTree = "<group>";
+		};
+		030DFF491BC5B0EF00D5756A /* Evidence */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF4D1BC5B12200D5756A /* Models */,
+				030DFF4B1BC5B11300D5756A /* Evidence.swift */,
+			);
+			name = Evidence;
+			sourceTree = "<group>";
+		};
+		030DFF4A1BC5B0FD00D5756A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C7FE6DF7ED74EEFD11527E10 /* Pods */,
+				994F2ED4753307036D12F679 /* Frameworks */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		030DFF4D1BC5B12200D5756A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF4E1BC5B12C00D5756A /* EvidenceUser.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		030DFF501BC5C7F700D5756A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF511BC5C80A00D5756A /* Welcome */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		030DFF511BC5C80A00D5756A /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF521BC5C82500D5756A /* WelcomeViewController.swift */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		994F2ED4753307036D12F679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DB51E6FDE6BE87BDA4BF081 /* Pods_SmurfSpotting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7FE6DF7ED74EEFD11527E10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776EEA06E96D9753EA89BBD0 /* Pods-SmurfSpotting.debug.xcconfig */,
+				37D49A54884A9AB8C97DA2C6 /* Pods-SmurfSpotting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030DFF1C1BC5B05500D5756A /* SmurfSpotting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFF401BC5B05500D5756A /* Build configuration list for PBXNativeTarget "SmurfSpotting" */;
+			buildPhases = (
+				D00E1E2E1430018F440AF6E2 /* Check Pods Manifest.lock */,
+				030DFF191BC5B05500D5756A /* Sources */,
+				030DFF1A1BC5B05500D5756A /* Frameworks */,
+				030DFF1B1BC5B05500D5756A /* Resources */,
+				FB6162C620A918844287C672 /* Embed Pods Frameworks */,
+				A8797CCA8F8D2EC56E5C081B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmurfSpotting;
+			productName = SmurfSpotting;
+			productReference = 030DFF1D1BC5B05500D5756A /* SmurfSpotting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030DFF2B1BC5B05500D5756A /* SmurfSpottingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFF431BC5B05500D5756A /* Build configuration list for PBXNativeTarget "SmurfSpottingTests" */;
+			buildPhases = (
+				030DFF281BC5B05500D5756A /* Sources */,
+				030DFF291BC5B05500D5756A /* Frameworks */,
+				030DFF2A1BC5B05500D5756A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030DFF2E1BC5B05500D5756A /* PBXTargetDependency */,
+			);
+			name = SmurfSpottingTests;
+			productName = SmurfSpottingTests;
+			productReference = 030DFF2C1BC5B05500D5756A /* SmurfSpottingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030DFF361BC5B05500D5756A /* SmurfSpottingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFF461BC5B05500D5756A /* Build configuration list for PBXNativeTarget "SmurfSpottingUITests" */;
+			buildPhases = (
+				030DFF331BC5B05500D5756A /* Sources */,
+				030DFF341BC5B05500D5756A /* Frameworks */,
+				030DFF351BC5B05500D5756A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030DFF391BC5B05500D5756A /* PBXTargetDependency */,
+			);
+			name = SmurfSpottingUITests;
+			productName = SmurfSpottingUITests;
+			productReference = 030DFF371BC5B05500D5756A /* SmurfSpottingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030DFF151BC5B05500D5756A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sizeof.io;
+				TargetAttributes = {
+					030DFF1C1BC5B05500D5756A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					030DFF2B1BC5B05500D5756A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 030DFF1C1BC5B05500D5756A;
+					};
+					030DFF361BC5B05500D5756A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 030DFF1C1BC5B05500D5756A;
+					};
+				};
+			};
+			buildConfigurationList = 030DFF181BC5B05500D5756A /* Build configuration list for PBXProject "SmurfSpotting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030DFF141BC5B05500D5756A;
+			productRefGroup = 030DFF1E1BC5B05500D5756A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030DFF1C1BC5B05500D5756A /* SmurfSpotting */,
+				030DFF2B1BC5B05500D5756A /* SmurfSpottingTests */,
+				030DFF361BC5B05500D5756A /* SmurfSpottingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030DFF1B1BC5B05500D5756A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFF231BC5B05500D5756A /* Assets.xcassets in Resources */,
+				030DFF261BC5B05500D5756A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF2A1BC5B05500D5756A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF351BC5B05500D5756A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8797CCA8F8D2EC56E5C081B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmurfSpotting/Pods-SmurfSpotting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00E1E2E1430018F440AF6E2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6162C620A918844287C672 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmurfSpotting/Pods-SmurfSpotting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030DFF191BC5B05500D5756A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFF4C1BC5B11300D5756A /* Evidence.swift in Sources */,
+				030DFF531BC5C82500D5756A /* WelcomeViewController.swift in Sources */,
+				030DFF211BC5B05500D5756A /* AppDelegate.swift in Sources */,
+				030DFF4F1BC5B12C00D5756A /* EvidenceUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF281BC5B05500D5756A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFF311BC5B05500D5756A /* SmurfSpottingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF331BC5B05500D5756A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFF3C1BC5B05500D5756A /* SmurfSpottingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030DFF2E1BC5B05500D5756A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030DFF1C1BC5B05500D5756A /* SmurfSpotting */;
+			targetProxy = 030DFF2D1BC5B05500D5756A /* PBXContainerItemProxy */;
+		};
+		030DFF391BC5B05500D5756A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030DFF1C1BC5B05500D5756A /* SmurfSpotting */;
+			targetProxy = 030DFF381BC5B05500D5756A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030DFF241BC5B05500D5756A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030DFF251BC5B05500D5756A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030DFF3E1BC5B05500D5756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030DFF3F1BC5B05500D5756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030DFF411BC5B05500D5756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776EEA06E96D9753EA89BBD0 /* Pods-SmurfSpotting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmurfSpotting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.SmurfSpotting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		030DFF421BC5B05500D5756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D49A54884A9AB8C97DA2C6 /* Pods-SmurfSpotting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmurfSpotting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.SmurfSpotting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		030DFF441BC5B05500D5756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmurfSpottingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.SmurfSpottingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmurfSpotting.app/SmurfSpotting";
+			};
+			name = Debug;
+		};
+		030DFF451BC5B05500D5756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmurfSpottingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.SmurfSpottingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmurfSpotting.app/SmurfSpotting";
+			};
+			name = Release;
+		};
+		030DFF471BC5B05500D5756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmurfSpottingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.SmurfSpottingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmurfSpotting;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		030DFF481BC5B05500D5756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmurfSpottingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.SmurfSpottingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmurfSpotting;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030DFF181BC5B05500D5756A /* Build configuration list for PBXProject "SmurfSpotting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFF3E1BC5B05500D5756A /* Debug */,
+				030DFF3F1BC5B05500D5756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030DFF401BC5B05500D5756A /* Build configuration list for PBXNativeTarget "SmurfSpotting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFF411BC5B05500D5756A /* Debug */,
+				030DFF421BC5B05500D5756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030DFF431BC5B05500D5756A /* Build configuration list for PBXNativeTarget "SmurfSpottingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFF441BC5B05500D5756A /* Debug */,
+				030DFF451BC5B05500D5756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030DFF461BC5B05500D5756A /* Build configuration list for PBXNativeTarget "SmurfSpottingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFF471BC5B05500D5756A /* Debug */,
+				030DFF481BC5B05500D5756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030DFF151BC5B05500D5756A /* Project object */;
+}
